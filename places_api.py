@@ -1,6 +1,7 @@
 import json
 import gmaps
 import requests
+import config
 
 
 lat = 36.170216638996365
@@ -17,7 +18,7 @@ low_long = long-y_diff
 url='https://places.googleapis.com/v1/places:searchText'
 headers = {
     'Content-Type': 'application/json',
-    'X-Goog-Api-Key': 'your-api-key',
+    'X-Goog-Api-Key': config.API_KEY,
     'X-Goog-FieldMask':'places.displayName,places.formattedAddress,places.priceLevel'
 }
 search_query = {
