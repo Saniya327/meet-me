@@ -1,6 +1,6 @@
 # meet-where
 
-meet-where is personal project for discovering a meeting place(restaurants, cafes) which is mid way between two locations.
+meet-where is a python CLI for discovering a meeting place(restaurants, cafes) which is mid way between two locations.
 Ideal for first dates. Saves the trouble of looking at a map and searching for a place. The code is set for walking mode and checks for restaurants at the mid way mark. 
 
 ## libraries
