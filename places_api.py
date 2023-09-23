@@ -37,16 +37,12 @@ def find_places(lat,long):
             }   
         }
     }
-#locationRestriction
-
-#909 flats: 36.170216638996365, -86.79001548571094
-#high 36.180660668844496, -86.78828985350843
-#low 36.15894146751352, -86.79890165591115
 
 
     json_payload = json.dumps(search_query)
 
     response = requests.post(url, headers=headers, data=json_payload)
+    json_response = json.loads(response.text)
 
     if response.status_code == 200:
         print('Request successful!')
