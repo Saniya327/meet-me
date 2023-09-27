@@ -23,10 +23,14 @@ For example:
 
 ```python
 
-python routes.py '909 flats nashville' 'Modera Framingham MA'
+python routes.py 'Clinton Hill Brooklyn, NY' '264 King St Port Chester, NY'
 
 
 ```
+![Screenshot 2023-09-26 at 11 32 21 PM](https://github.com/Saniya327/meet-me/assets/18498274/3bb499e1-88cb-474e-b52c-751bbede4385)
+
+![IMG_6195](https://github.com/Saniya327/meet-me/assets/18498274/c45e66ad-3251-44d6-bb0b-c9052ee3b0a9)
+
 
 
 ## Contributing
